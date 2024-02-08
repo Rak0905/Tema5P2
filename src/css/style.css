@@ -13,3 +13,65 @@ footer {
     left: 0;
     width: 100vw;
   }
+  
+.plato:hover{
+  color:cadetblue;
+}
+a:hover{
+  color:cadetblue;
+}
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
+a{
+  color:black;
+}
+ul{
+  list-style-type: none;
+}
+#btn_back{
+  border: none; 
+  color: black; 
+  padding: 14px 28px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+}
+#btn_back:hover {background: #0b7dda; color: white;}
+#restaurant-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  font-size: 16px;
+  width: 200px;
+  outline: none;
+}
+
+#restaurant-select option {
+  padding: 10px;
+}
+
+/* Estilos para el hover del select */
+#restaurant-select:hover {
+  background-color: #e0e0e0;
+}
+
+/* Estilos para el focus del select */
+#restaurant-select:focus {
+  border-color: #007bff;
+}
+
+/* Estilos para cuando se selecciona una opción */
+#restaurant-select option:checked {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Estilos para cuando se pasa el ratón sobre una opción */
+#restaurant-select option:hover {
+  background-color: #007bff;
+  color: white;
+}

@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadena de restaurantes</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
     <header>
-        <h1>Restaurante </h1>
+        <h1>Cadena de restaurantes </h1>
         
     </header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -17,6 +17,7 @@
       
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
@@ -37,11 +38,23 @@
       </nav>
       <main >
         <main>
-            <div id="central-zone"></div>
-            <div id="central-zone2"></div>
-            <div id="dish-details"></div>
-            <div id="menu"></div>
-            <ul id="allergens-list"></ul>
+            
+            <div id="central-zone" class="noMenu"></div>
+            <div id="central-zone2" class="zone" class="noMenu"></div>
+            <div id="dish-details"  class="zone" class="noMenu"></div>
+            <div id="menu" class="zone" class="noMenu" ></div>
+            <ul id="allergens-list" class="zone" class="noMenu"></ul>
+          <div>
+            <select id="restaurant-select" class="zone">
+              <option disabled selected>Selecciona un restaurante</option>
+            </select>
+            <div id="restaurant-info" class="zone">
+              <!-- Aquí se mostrará la información del restaurante -->
+            </div>
+          
+          </div>
+           
+            
         </main>
     </main>
     
